@@ -1,0 +1,44 @@
+.home-filters {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.home-filters label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #81b71a;
+  display: flex;
+  margin: 10px;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.home-filters input {
+  margin: 0 10px;
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+}
+
+@media screen and (max-width: 767px) {
+  .home-filters {
+    margin-top: 20px;
+  }
+  .home-filters label {
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 0;
+  }
+
+  .home-filters input {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+  }
+}

@@ -1,0 +1,77 @@
+.login-container {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../../assets/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-logo {
+  width: 50%;
+  max-width: 80px;
+  margin-bottom: 20px;
+}
+
+.login-card {
+  display: flex;
+  margin: 0 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 60px 30px;
+  width: 80%;
+  max-width: 500px;
+  opacity: 0.8;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.login-container h1 {
+  color: #81b71a;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-block-start: 0 !important;
+}
+
+.login-container h6 {
+  color: #25330a;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-block-start: 0 !important;
+}
+
+.btn-signup {
+  background-color: #81b71a;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.btn-signup:hover {
+  background-color: #77aa19;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .login-container h1,
+  .login-container h6 {
+    font-size: 1.5rem;
+  }
+}
