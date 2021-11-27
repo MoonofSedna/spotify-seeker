@@ -30,6 +30,7 @@ export default function Login() {
   const [spotifyRefreshToken, setSpotifyRefreshToken] = useRecoilState(
     spotifyRefreshTokenAtom
   );
+  // eslint-disable-next-line no-unused-vars
   const [spotifyTokenResponse, setSpotifyTokenResponse] = useRecoilState(
     spotifyTokenResponseAtom
   );
