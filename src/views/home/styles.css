@@ -109,8 +109,7 @@
   color: #ffff;
   font-weight: 500;
   background: #81b71a;
-  width: 20%;
-  height: 55px;
+  padding: 15px;
   border: none;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -170,5 +169,10 @@
     width: 90%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+
+  .reset-filters {
+    font-size: 15px;
+    margin-top: 15px;
   }
 }
